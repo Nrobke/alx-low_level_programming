@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int ch=48;
-	for(; ch <= 57; ch++)
-		putchar(ch);
-	
-	putchar(10);
-	return 0;
+int ch = 48;
+for(; ch <= 57 ; ch++)
+putchar(ch);
+putchar('\n');
+putchar(10);
+return (0);
 }
